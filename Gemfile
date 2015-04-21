@@ -58,17 +58,17 @@ group :development, :test do
   gem 'spork', '0.9.0.rc9', :require => false
 end
 
-group :mysql do
-  # adapter: mysql2
-  gem 'mysql2', :require => false
-end
+# group :mysql do
+#   # adapter: mysql2
+#   gem 'mysql2', :require => false
+# end
 
 group :postgres do
   # adapter: postgresql
   gem 'pg', :require => false
 end
 
-group :sqlite do
-  # adapter: sqlite3
-  gem 'sqlite3', :require => false
-end
+# group :sqlite do
+#   # adapter: sqlite3
+#   gem 'sqlite3', :require => false
+# end
